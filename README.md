@@ -17,7 +17,7 @@ Try and have no more than 3 levels of abstraction. 2 is preferable. too much mor
 ### If statements
 99% if statements should have named conditions.
 
-Anti-Patterns
+- Anti-Patterns
 ```
 if (description === undefined) {
   // do something
@@ -26,7 +26,7 @@ if (score < 80) {
   // do something
 }
 ```
-Patterns
+- Patterns
 ```
 const cantFindDescription = description === undefined;
 if (cantFindDescription) {
