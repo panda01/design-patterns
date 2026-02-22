@@ -16,6 +16,7 @@ Try and have no more than 3 levels of abstraction. 2 is preferable. too much mor
 
 ### If statements
 99% if statements should have named conditions.
+
 Anti-Patterns
 ```
 if (description === undefined) {
